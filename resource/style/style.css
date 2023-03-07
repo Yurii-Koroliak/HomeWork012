@@ -1,0 +1,191 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  transition: all 0.2s;
+}
+
+.container {
+  margin: 121px 135px;
+}
+
+.--content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.--content-subtitle {
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #898F8F;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+}
+.--content-title {
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 31px;
+  line-height: 58px;
+  color: #FFCC00;
+  text-transform: uppercase;
+}
+.--content-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.--border {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.--border-line {
+  width: 210px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #FFCC00;
+  -o-border-image: initial;
+     border-image: initial;
+}
+.--border-fire {
+  margin: 0px 5px;
+}
+
+.img {
+  vertical-align: top;
+}
+
+.--border-vertically {
+  height: 560px;
+  margin-right: 70px;
+  margin-left: 100px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #FFCC00;
+  -o-border-image: initial;
+     border-image: initial;
+}
+
+.--info-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.--info-text-photo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 135px;
+  margin-bottom: 50px;
+}
+.--info-text-photo-item:hover svg {
+  fill: #FFCC00;
+  stroke: #333333;
+}
+.--info-text-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 430px;
+  height: 116px;
+  margin-bottom: 60px;
+}
+.--info-text-main .--main-text {
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #333333;
+  padding-bottom: 20px;
+}
+.--info-text-main .--svg-items {
+  display: flex;
+  flex-direction: row;
+  width: 50px;
+  height: 4px;
+  justify-content: space-between;
+}
+
+.--title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.--title-head {
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: capitalize;
+  color: #666666;
+  margin-bottom: 30px;
+}
+.--title-border {
+  width: 100px;
+  margin-bottom: 30px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #FFCC00;
+  -o-border-image: initial;
+     border-image: initial;
+}
+.--title-subheading {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  text-transform: capitalize;
+  color: #666666;
+  margin-bottom: 30px;
+}
+
+.svg1 {
+  width: 10px;
+  height: 4px;
+}
+
+.svg2 {
+  width: 20px;
+  height: 4px;
+}
+
+.--button {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #666666;
+  padding: 5px 10px;
+  border: 1px solid #FFCC00;
+  text-decoration: none;
+}
+.--button:hover {
+  background: linear-gradient(90deg, #898F8F, #FFCC00);
+  background-size: 300% 300%;
+  animation: gradient 3s infinite ease-in-out;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+svg {
+  fill: white;
+}
+
+path {
+  fill: #CCCCCC;
+}/*# sourceMappingURL=style.css.map */
